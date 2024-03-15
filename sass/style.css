@@ -1,0 +1,577 @@
+.containerRegistro {
+  width: 100%;
+  height: 100vh;
+  margin-top: 80px;
+  background-color: rgb(255, 176, 127);
+  text-align: center;
+}
+.containerRegistro .registroTexto {
+  font-size: 40px;
+  margin: 50px;
+  color: #1f5761;
+  font-family: "Oleo Script", sans-serif;
+}
+.containerRegistro .formulario {
+  text-align: left;
+  display: inline-block;
+  width: 530px;
+  height: 700px;
+  background-color: #00343d;
+  border-radius: 30px;
+  padding: 50px;
+}
+.containerRegistro .formulario label {
+  margin-left: 20px;
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(255, 176, 127);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.containerRegistro .formulario input {
+  padding: 5px;
+  width: 400px;
+  font-size: x-large;
+  border-radius: 20px;
+  margin: 10px;
+  display: block;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.containerRegistro #btnSubmit {
+  width: 410px;
+  font-weight: bold;
+  margin-top: 30px;
+  border: 2px solid rgb(255, 176, 127);
+  background-color: #00343d;
+  color: rgb(255, 176, 127);
+}
+.containerRegistro #btnSubmit:hover {
+  background-color: #d0ecee;
+  color: #00343d;
+  font-weight: bold;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  background-color: #00343d;
+}
+header .navbar-toggler {
+  background-color: #d0ecee;
+}
+header .offcanvas-body {
+  background-color: #00343d;
+}
+header .offcanvas-header {
+  background-color: #00343d;
+}
+header .offcanvas-title {
+  font-family: "Oleo Script", sans-serif;
+  opacity: 0.8;
+}
+header .btn-close {
+  background-color: #d0ecee;
+}
+header .navbar-nav {
+  background-color: #00343d;
+  font-family: "Oleo Script", sans-serif;
+  list-style: none;
+  font-size: 2rem;
+  opacity: 0.8;
+}
+header .navbar-nav li a:hover {
+  background-color: rgb(255, 176, 127);
+  color: #00343d;
+  border-radius: 10px;
+}
+header .navbar-nav a {
+  color: aliceblue;
+}
+
+footer {
+  background-color: #00343d;
+  border-top: #d0ecee solid 1px;
+}
+footer h3 {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-weight: bold;
+}
+footer .icono {
+  margin: 30px 50px 30px 50px;
+  width: 50px;
+  color: white;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+}
+footer .icono:hover {
+  background-color: rgb(255, 176, 127);
+}
+footer p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 80px;
+  background-color: rgb(255, 176, 127);
+}
+main .container-hero {
+  padding: 30px 100px 30px 100px;
+  height: 100vh;
+}
+main .container-hero .container-main .div-hero-izq {
+  background-color: #d0ecee;
+}
+main .container-hero .container-main .div-hero-der {
+  background-color: #00343d;
+}
+main .container-hero .container-main .titulo {
+  margin-top: 150px;
+  font-size: 60px;
+  color: #054a50;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: bold;
+  animation: texto-titulo 1s ease-out;
+}
+@keyframes texto-titulo {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+main .container-hero .container-main p {
+  margin-top: 50px;
+  text-align: center;
+  color: #43676d;
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+  padding: 20px;
+  animation: texto-titulo 1s ease-out;
+}
+main .container-hero .container-main .btn-dark:hover {
+  background-color: #ff914c;
+}
+
+.carousel-inner {
+  padding: 10px;
+  height: 750px;
+  animation: texto-titulo 1s ease-out;
+}
+
+.carousel-item {
+  margin-top: 150px;
+  width: 90%;
+  height: auto;
+  border-radius: 50px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+}
+.carousel-item img {
+  margin-left: 40px;
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 50px;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #00343d;
+}
+
+.mainAboutUs {
+  width: 100%;
+  padding: 30px;
+  height: 90vh;
+  background-color: rgb(255, 176, 127);
+}
+.mainAboutUs .textoNosotros {
+  padding: 50px;
+  height: 80vh;
+  text-align: center;
+  background-color: #00343d;
+  color: rgb(255, 176, 127);
+  border-radius: 200px;
+}
+.mainAboutUs h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.mainAboutUs p {
+  width: 100%;
+  font-size: larger;
+  text-align: center;
+  color: #d0ecee;
+  margin-top: 30px;
+  font-family: "Oleo Script", sans-serif;
+}
+
+.mainBlog {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  background-color: rgb(255, 176, 127);
+}
+.mainBlog .tituloBlog {
+  margin-top: 80px;
+  font-family: "Oleo Script", sans-serif;
+  color: #1f5761;
+  font-size: 70px;
+}
+.mainBlog .containerCards {
+  width: 100%;
+  display: flex;
+}
+.mainBlog .containerCards a {
+  text-decoration: none;
+  margin: 30px;
+  width: 30%;
+}
+.mainBlog .containerCards a .card {
+  height: 500px;
+  background-color: #054a50;
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+  cursor: pointer;
+  animation: fadeIn 0.5s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.mainBlog .containerCards a .card:hover {
+  transform: scale(1.05);
+}
+.mainBlog .containerCards a .card .imgBlog {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+}
+.mainBlog .containerCards a .card .nombreBlog {
+  margin: 10px;
+  font-size: 30px;
+  color: #d0ecee;
+}
+.mainBlog .containerCards a .card p {
+  font-size: larger;
+  margin: 10px;
+  color: aliceblue;
+}
+
+.section-productos {
+  margin-top: 80px;
+  justify-content: center;
+  background: rgb(255, 176, 127);
+  background: linear-gradient(180deg, rgb(255, 176, 127) 0%, rgb(0, 52, 61) 100%);
+}
+.section-productos .row {
+  --bs-gutter-x: 0;
+  display: flex;
+}
+.section-productos .row a {
+  text-decoration: none;
+}
+.section-productos .card {
+  width: 400px;
+  background-color: #00343d;
+  border-radius: 16px;
+  border: 3px solid rgba(183, 203, 230, 0.86);
+  animation: fadeIn 0.5s ease forwards;
+  transition: transform 0.3s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.section-productos .card:hover {
+  transform: scale(1.05);
+}
+.section-productos .card .precio {
+  margin: 0;
+  font-size: 50px;
+  color: rgb(255, 176, 127);
+}
+.section-productos .card .card-text {
+  font-size: larger;
+  margin: 20px;
+  color: aliceblue;
+}
+.section-productos .card .btn-primary {
+  background-color: rgb(255, 176, 127);
+  color: #00343d;
+  font-size: large;
+  font-weight: bolder;
+  border: #d0ecee solid 2px;
+}
+.section-productos .card .btn-primary:hover {
+  color: rgb(255, 176, 127);
+  background-color: #00343d;
+  border: rgb(255, 176, 127) solid 2px;
+}
+.section-productos .titulo-producto {
+  margin-top: 80px;
+  font-family: "Oleo Script", sans-serif;
+  color: #1f5761;
+  font-size: 80px;
+}
+.section-productos .card-title {
+  margin: 10px;
+  font-size: 30px;
+  color: #d0ecee;
+}
+
+@media (max-width: 600px) {
+  main {
+    margin-top: 80px;
+    display: grid;
+  }
+  main .container-hero {
+    padding: 0px;
+  }
+  main .container-hero .container-main .titulo {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  main .container-hero .container-main .div-hero-izq {
+    height: 50vh;
+  }
+  main .container-hero .container-main .div-hero-der {
+    height: 50vh;
+  }
+  main .container-hero .container-main p {
+    margin-top: 0px;
+    text-align: center;
+    color: #43676d;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .carousel-inner {
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+  }
+  .carousel-item {
+    margin-left: 20px;
+    margin-top: 80px;
+    width: 90%;
+    height: auto;
+    border-radius: 50px;
+  }
+  .carousel-item img {
+    margin-left: 0px;
+  }
+  .section-productos .row {
+    padding-right: 30px;
+  }
+  .mainBlog {
+    height: 1800px;
+  }
+  .mainBlog .tituloBlog {
+    margin-top: 0px;
+    font-size: 40px;
+  }
+  .mainBlog .containerCards {
+    display: grid;
+    padding-left: 15px;
+  }
+  .mainBlog .containerCards .card {
+    width: 300px;
+  }
+  .mainAboutUs .textoNosotros {
+    padding: 10px;
+    height: 85vh;
+  }
+  .mainAboutUs h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .mainAboutUs p {
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .containerRegistro {
+    width: 100%;
+    margin-top: 10;
+  }
+  .containerRegistro .formulario {
+    width: 370px;
+    height: 550px;
+  }
+  .containerRegistro .formulario label {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .containerRegistro .formulario input {
+    width: 280px;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  .containerRegistro .registroTexto {
+    margin: 0;
+  }
+  .containerRegistro #btnSubmit {
+    width: 280px;
+    margin-top: 30px;
+  }
+  footer .icono {
+    margin: 10px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+  main {
+    margin-top: 80px;
+  }
+  main .container-hero {
+    padding: 0px;
+  }
+  main .container-hero .container-main {
+    height: 900px;
+  }
+  main .container-hero .container-main .titulo {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  main .container-hero .container-main .div-hero-izq {
+    height: 50vh;
+  }
+  main .container-hero .container-main .div-hero-der {
+    height: 50vh;
+  }
+  main .container-hero .container-main p {
+    margin-top: 0px;
+    text-align: center;
+    color: #43676d;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .carousel-inner {
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+  }
+  .carousel-item {
+    margin-left: 20px;
+    margin-top: 80px;
+    width: 90%;
+    height: auto;
+    border-radius: 50px;
+  }
+  .carousel-item img {
+    margin-left: 0px;
+  }
+  .section-productos .row {
+    padding-right: 30px;
+    justify-content: center;
+  }
+  .mainBlog {
+    height: 1800px;
+  }
+  .mainBlog .tituloBlog {
+    margin-top: 0px;
+    font-size: 40px;
+  }
+  .mainBlog .containerCards {
+    display: grid;
+    justify-content: center;
+  }
+  .mainBlog .containerCards a {
+    width: 500px;
+  }
+  .mainBlog .containerCards a .card {
+    width: 100%;
+    height: 400px;
+  }
+  .mainAboutUs .textoNosotros {
+    padding: 10px;
+    height: 85vh;
+  }
+  .mainAboutUs h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .mainAboutUs p {
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .containerRegistro {
+    width: 100%;
+    margin-top: 10;
+  }
+  .containerRegistro .formulario {
+    width: 370px;
+    height: 550px;
+  }
+  .containerRegistro .formulario label {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .containerRegistro .formulario input {
+    width: 280px;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  .containerRegistro .registroTexto {
+    margin: 0;
+  }
+  .containerRegistro #btnSubmit {
+    width: 280px;
+    margin-top: 30px;
+  }
+}
+.mainError {
+  width: 100%;
+  padding: 30px;
+  height: 90vh;
+  background-color: rgb(255, 176, 127);
+}
+.mainError .textoError {
+  padding: 50px;
+  height: 80vh;
+  text-align: center;
+  background-color: #00343d;
+  color: rgb(255, 176, 127);
+  border-radius: 200px;
+}
+.mainError h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.mainError p {
+  width: 100%;
+  font-size: larger;
+  text-align: center;
+  color: #d0ecee;
+  margin-top: 30px;
+  font-family: "Oleo Script", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

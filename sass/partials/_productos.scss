@@ -1,0 +1,78 @@
+.section-productos {
+  margin-top: 80px;
+  justify-content: center;
+  background: rgb(255, 176, 127);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 176, 127, 1) 0%,
+    rgba(0, 52, 61, 1) 100%
+  );
+
+  .row {
+    --bs-gutter-x: 0;
+    display: flex;
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .card {
+    width: 400px;
+    background-color: $colorPrincipal;
+    border-radius: 16px;
+    border: 3px solid rgba(183, 203, 230, 0.86);
+    animation: fadeIn 0.5s ease forwards;
+    transition: transform 0.3s ease;
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .precio {
+      margin: 0;
+      font-size: 50px;
+      color: rgb(255, 176, 127);
+    }
+
+    .card-text {
+      font-size: larger;
+      margin: 20px;
+      color: aliceblue;
+    }
+
+    .btn-primary {
+      background-color: $background-secundario;
+      color: $colorPrincipal;
+      font-size: large;
+      font-weight: bolder;
+      border: $colorSecundario solid 2px;
+      &:hover {
+        color: $background-secundario;
+        background-color: $colorPrincipal;
+        border: $background-secundario solid 2px;
+      }
+    }
+  }
+
+  .titulo-producto {
+    margin-top: 80px;
+    font-family: "Oleo Script", sans-serif;
+    color: #1f5761;
+    font-size: 80px;
+  }
+
+  .card-title {
+    margin: 10px;
+    font-size: 30px;
+    color: #d0ecee;
+  }
+}

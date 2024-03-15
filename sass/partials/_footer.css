@@ -1,0 +1,24 @@
+footer h3 {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-weight: bold;
+}
+
+footer .icono {
+  margin: 30px 50px 30px 50px;
+  width: 50px;
+  color: white;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer .icono:hover {
+  background-color: #ffb07f;
+}
+
+footer p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}

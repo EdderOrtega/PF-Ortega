@@ -1,0 +1,85 @@
+main {
+  margin-top: 80px;
+  background-color: $background-secundario;
+
+  .container-hero {
+    padding: 30px 100px 30px 100px;
+    height: 100vh;
+
+    .container-main {
+      .div-hero-izq {
+        background-color: $colorSecundario;
+      }
+
+      .div-hero-der {
+        background-color: $colorPrincipal;
+      }
+
+      .titulo {
+        margin-top: 150px;
+        font-size: 60px;
+        color: #054a50;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: bold;
+        animation: texto-titulo 1s ease-out;
+
+        @keyframes texto-titulo {
+          0% {
+            filter: blur(12px);
+            opacity: 0;
+          }
+          100% {
+            filter: blur(0px);
+            opacity: 1;
+          }
+        }
+      }
+
+      p {
+        margin-top: 50px;
+        text-align: center;
+        color: #43676d;
+        font-family: "Oleo Script", sans-serif;
+        font-size: 50px;
+        padding: 20px;
+        animation: texto-titulo 1s ease-out;
+      }
+
+      .btn-dark {
+        &:hover {
+          background-color: darken($background-secundario, 10%);
+        }
+      }
+    }
+  }
+}
+
+.carousel-inner {
+  padding: 10px;
+  height: 750px;
+  animation: texto-titulo 1s ease-out;
+}
+
+.carousel-item {
+  margin-top: 150px;
+  width: 90%;
+  height: auto;
+  border-radius: 50px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+
+  img {
+    margin-left: 40px;
+    width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 50px;
+  }
+}
+.carousel-item.active {
+  opacity: 1;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #00343d;
+}
